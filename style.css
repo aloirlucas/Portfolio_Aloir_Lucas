@@ -14,7 +14,7 @@
     background-repeat: no-repeat; /*IMAGEM NAO SE REPETIR*/
     background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
     background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
-    height: 90vh; /*DEFININDO A ALTURA*/
+    height: 80vh; /*DEFININDO A ALTURA*/
     width: 100%; /*FICAR RESPONSIVO*/
 }
     /*estilos do anside menu*/
@@ -162,6 +162,9 @@ aside{
 }
 
 @media screen and (max-width: 1300px) {   
+    .section-1-bg{
+        height: 70vh;
+    }
     .main-title{
         margin-left: 15%;
     } 
@@ -184,6 +187,9 @@ aside{
 }
 
 @media screen and (max-width: 1050px){
+    .section-1-bg{
+        height: 60vh;
+    }
     .main-title{
         margin-left: 10%;
     } 
@@ -192,7 +198,10 @@ aside{
     }
 }
 
-@media screen and (max-width: 860px) {    
+@media screen and (max-width: 860px) { 
+    .section-1-bg{
+        height: 50vh;
+    }   
     .main-title{
         margin-left: 5%;
     }
@@ -215,6 +224,9 @@ aside{
 }
 
 @media screen and (max-width: 620px) {    
+    .section-1-bg{
+        height: 40vh;
+    }
     .main-title{
         margin-left: 3%;
     }
