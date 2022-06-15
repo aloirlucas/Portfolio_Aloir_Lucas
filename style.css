@@ -233,18 +233,27 @@ aside{
         margin-left: 3%;
     }
     .main-title h1{
-        font-size: 30px;   
+        font-size: 25px;   
         margin-top: 40%;     
     }
     .main-title h2{
-        font-size: 15px;
+        font-size: 13px;
     }
     .main-title h5{
-        font-size: 12px;
+        font-size: 13px;
     }
     .btn-sabermais{
         font-size: 8px;
         margin-top: 30px;
+        width: 15%;
+    
+    padding: 5px 3px;
+    
+    
+    border-radius: 30px;
+    color: #FFF;
+    font-family: 'Rubik';
+    cursor: pointer;
     }
     .btn-redesSociais{
         font-size: 8px;        
