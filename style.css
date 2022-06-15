@@ -180,6 +180,7 @@ aside{
     }
     .btn-sabermais{
         font-size: 15px;
+        margin-top: 35px;
     }
     .btn-redesSociais{
         font-size: 15px;
@@ -188,7 +189,7 @@ aside{
 
 @media screen and (max-width: 1050px){
     .section-1-bg{
-        height: 60vh;
+        height: 70vh;
     }
     .main-title{
         margin-left: 10%;
@@ -200,7 +201,7 @@ aside{
 
 @media screen and (max-width: 860px) { 
     .section-1-bg{
-        height: 50vh;
+        height: 70vh;
     }   
     .main-title{
         margin-left: 5%;
@@ -217,6 +218,7 @@ aside{
     }
     .btn-sabermais{
         font-size: 11px;
+        margin-top: 30px;
     }
     .btn-redesSociais{
         font-size: 11px;
@@ -225,7 +227,7 @@ aside{
 
 @media screen and (max-width: 620px) {    
     .section-1-bg{
-        height: 40vh;
+        height: 60vh;
     }
     .main-title{
         margin-left: 3%;
@@ -242,10 +244,10 @@ aside{
     }
     .btn-sabermais{
         font-size: 8px;
+        margin-top: 30px;
     }
     .btn-redesSociais{
-        font-size: 8px;
-        
+        font-size: 8px;        
     }
     #barra-menu ul li a{
         font-size: 14px;
