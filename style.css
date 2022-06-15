@@ -234,7 +234,7 @@ aside{
     }
     .main-title h1{
         font-size: 25px;   
-        margin-top: 40%;     
+        margin-top: 32%;     
     }
     .main-title h2{
         font-size: 13px;
@@ -243,15 +243,16 @@ aside{
         font-size: 13px;
     }
     .btn-sabermais{
-        font-size: 10px;
+        font-size: 12px;
         margin-top: 30px;
         width: 25%;    
         padding: 3px 1px;       
-        border-radius: 30px;
-    
+        border-radius: 30px;    
     }
     .btn-redesSociais{
-        font-size: 8px;        
+        font-size: 12px;
+        width: 25%;
+        padding: 3px 1px;        
     }
     #barra-menu ul li a{
         font-size: 14px;
