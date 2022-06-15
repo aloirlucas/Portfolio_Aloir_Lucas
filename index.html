@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio - Aloir Lucas</title>
+</head>
+<body>
+    <div class="section-1-bg"> <!--section-1-bg-->
+        <aside>
+                            <!--FAZENDO O MENU-->
+
+                <!--INICIO ico do menu-->
+            <div class="icon-menu" onclick="abrirMenu()"> <!--ao clicar na imagem ai chamar a funcão abrir menu no javascrpit--> 
+                <img src="img/menu-aberto.png" alt="menu-aberto">
+            </div>
+                <!--FIM ico do menu-->
+
+                <!--INÍCIO barra do menu quando clicamos-->
+            <div id="barra-menu"> <!--coloco esse id la na função do javascript-->
+
+                    <!--INICIO DOS LINKS DOS MENUS-->
+                <ul>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre mim</a>
+                    </li>
+                </ul>
+                    <!--FIM DOS LINKS DOS MENUS-->
+
+                    <!--INICIO ICONES INSTA, FACE E LINKEDIN-->
+                <div class="c-icon">
+                    <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                    <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+                </div> 
+                    <!--FIM ICONES INSTA, FACE E LINKEDIN-->
+            </div> 
+                <!--FIM - barra do menu quando clicamos-->
+        </aside>
+
+            <!--INICIO MAIN TITLE-->
+        <div class="main-title">
+            <h1>Eu sou Aloir Lucas</h1>
+            <h2 id="textos-automaticos">Sou programador <span class="animacao"></span> </h2>
+            <h5 id="text-automatico"></h5>
+            <a href="#saiba-mais"><button class="btn-sabermais">Saber mais</button></a>
+
+                <!--INICIO BTN REDES SOCIAIS-->
+            <div class="redes-sociais">
+                <button class="btn-redesSociais">GitHub</button>
+                <button class="btn-redesSociais">Linkedin</button>
+            </div>
+                <!--FIM BTN REDES SOCIAIS-->
+                
+        </div>
+            <!--FIM MAIN TITLE-->
+
+    </div><!--section-1-bg-->
+
+    <div class="section-2">
+        <h1 id="saiba-mais">Eu sou</h1>
+    </div>
+
+        <!--BIBLIOTECA DO SITE https://www.typeitjs.com/ PARA QUE OS TEXTOS AUTOMATICOS DO H2 FUNCIONE-->
+    <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
+        <!--BIBLIOTECA DO SITE https://www.typeitjs.com/ PARA QUE OS TEXTOS AUTOMATICOS DO H2 FUNCIONE-->
+
+        <!--SCRIPT BAIXADO DO SITE IONICONS, PARA FUNCIONAR OS ICONES DO INSTA FACE E LINKEDIN-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!--SCRIPT BAIXADO DO SITE IONICONS, PARA FUNCIONAR OS ICONES DO INSTA FACE E LINKEDIN-->
+
+    <script src="script-menu.js"></script>
+    <script src="scriptTextoAutomatico-h5.js"></script>
+    <script src="scriptTextosAutomaticos-h2.js"></script>
+</body>
+</html>

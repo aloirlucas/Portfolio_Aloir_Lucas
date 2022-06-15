@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1-bg{
+    background-image: url('img/fundo.jpg'); /*INSERINDO A IMAGEM DE FUNDO*/
+    background-repeat: no-repeat; /*IMAGEM NAO SE REPETIR*/
+    background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
+    background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
+    height: 90vh; /*DEFININDO A ALTURA*/
+    width: 100%; /*FICAR RESPONSIVO*/
+}
+    /*estilos do anside menu*/
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden; /*faz com que o menu nao apareça, so apos clicar com o javascript*/
+}
+
+    /*estilo da imagem do menu*/
+.icon-menu img{
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+    /*estilo barra menu*/
+#barra-menu{
+    background-color: #8C0303; /*cor da barra do menu*/
+    height: 100vh;
+    width: 0px; /*quando a pessoa clicar vai chamr a função do java script*/
+    transition: 0.3s all;
+}
+
+    /*estilos dos links do barra menu*/
+#barra-menu ul li{
+    list-style: none; /*retirando os pontos pretos que ficam ao lado do link*/
+    padding: 15px; /*separação entre os links*/
+    margin-top: 15%;    
+}
+
+#barra-menu ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Rubik';    
+}
+
+#barra-menu ul li a:hover{ /*QUANDO PASSAR O MOUSE EM CIMA*/
+    border: solid 1px #F20505; /*BORDA*/
+    padding: 8px; /*ESPAÇAMENTO INTERIOR*/
+    border-radius: 15px; /*ARRENDODAMENTO DA BORDA*/
+    background-color: #F20505; /*COR DO BACKGROUND QUANDO PASSAR O MOUSE */
+}
+
+.c-icon{ /*div dos icones*/
+    margin-top: 100%; /*fazer ele descer pro meio*/
+    display: flex;
+    justify-content: center; /*centralizar*/    
+    text-align: center; /*centralizar*/
+    gap: 15px; /*espaçamento entre os icones*/
+    overflow: hidden;/*faz com que o menu nao apareça, so apos clicar com o javascript*/
+}
+
+.c-icon span{ /*div e a tag span dos ícones*/
+    color: #FFF;
+}
+
+.c-icon span:hover{
+    color:#F20505;
+    transition: 0.2s;
+    transform: 0.5s;
+}
+
+.main-title{
+    display: flex; /*em linha*/
+    flex-direction: column; /*alinhar em colunas*/
+    justify-content: center;
+    margin-left: 18%;
+    flex-wrap: wrap; /*pra quando for fazer o respondivo*/
+}
+
+.main-title h1{
+    font-size: 58px;
+    color: #FFF;
+    margin-top: 15%;
+    font-family: 'Rubik';
+    font-weight: bold;
+    letter-spacing: 2px;    
+}
+
+.main-title h2{
+    color: #fe002d;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-title h5{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+
+.btn-sabermais{
+    width: 15%;
+    margin-top: 40px;
+    padding: 8px 5px;
+    font-size: 20px;
+    background-color: #fe002d;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: 'Rubik';
+    cursor: pointer; /*mãozinha do mouse*/
+}
+
+.btn-sabermais:hover{
+    background: transparent;
+    border: solid 1px #FFF;
+}
+
+.redes-sociais{
+    margin-top: 40px;    
+}
+
+.btn-redesSociais{
+    width: 10%;
+    padding: 8px 5px;
+    font-size: 20px;
+    background-color: #FFF;
+    color: #fe002d;
+    font-family: 'Rubik';   
+    cursor: pointer; 
+}
+
+.btn-redesSociais:hover{
+    background: transparent;
+    border: solid 1px #FFF;
+}
+
+.section-2{
+    background-color: rgba(5, 4, 4, 0.633);
+    background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
+    background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
+    height: 100vh; /*DEFININDO A ALTURA*/
+    width: 100%; /*FICAR RESPONSIVO*/
+}
+
+@media screen and (max-width: 1300px) {   
+    .main-title{
+        margin-left: 15%;
+    } 
+    .main-title h1{
+        font-size: 50px;   
+        margin-top: 25%;     
+    }
+    .main-title h2{
+        font-size: 25px;
+    }
+    .main-title h5{
+        font-size: 20px;
+    }
+    .btn-sabermais{
+        font-size: 15px;
+    }
+    .btn-redesSociais{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .main-title{
+        margin-left: 10%;
+    } 
+    .main-title h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 860px) {    
+    .main-title{
+        margin-left: 5%;
+    }
+    .main-title h1{
+        font-size: 32px;   
+        margin-top: 30%;     
+    }
+    .main-title h2{
+        font-size: 20px;
+    }
+    .main-title h5{
+        font-size: 15px;
+    }
+    .btn-sabermais{
+        font-size: 11px;
+    }
+    .btn-redesSociais{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 620px) {    
+    .main-title{
+        margin-left: 3%;
+    }
+    .main-title h1{
+        font-size: 30px;   
+        margin-top: 40%;     
+    }
+    .main-title h2{
+        font-size: 15px;
+    }
+    .main-title h5{
+        font-size: 12px;
+    }
+    .btn-sabermais{
+        font-size: 8px;
+    }
+    .btn-redesSociais{
+        font-size: 8px;
+        
+    }
+    #barra-menu ul li a{
+        font-size: 14px;
+    }
+    #barra-menu ul li{
+
+        margin-top: 10%;    
+    }
+}
