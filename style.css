@@ -227,7 +227,7 @@ aside{
 
 @media screen and (max-width: 620px) {    
     .section-1-bg{
-        height: 60vh;
+        height: 50vh;
     }
     .main-title{
         margin-left: 3%;
@@ -245,15 +245,10 @@ aside{
     .btn-sabermais{
         font-size: 8px;
         margin-top: 30px;
-        width: 15%;
+        width: 20%;    
+        padding: 3px 1px;       
+        border-radius: 30px;
     
-    padding: 5px 3px;
-    
-    
-    border-radius: 30px;
-    color: #FFF;
-    font-family: 'Rubik';
-    cursor: pointer;
     }
     .btn-redesSociais{
         font-size: 8px;        
