@@ -14,7 +14,7 @@
     background-repeat: no-repeat; /*IMAGEM NAO SE REPETIR*/
     background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
     background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
-    height: 80vh; /*DEFININDO A ALTURA*/
+    height: 100vh; /*DEFININDO A ALTURA*/
     width: 100%; /*FICAR RESPONSIVO*/
 }
     /*estilos do anside menu*/
@@ -153,24 +153,18 @@ aside{
     border: solid 1px #FFF;
 }
 
-.section-2{
-    background-color: rgba(5, 4, 4, 0.633);
-    background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
-    background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
-    height: 100vh; /*DEFININDO A ALTURA*/
-    width: 100%; /*FICAR RESPONSIVO*/
-}
+
 
 @media screen and (max-width: 1300px) {   
     .section-1-bg{
-        height: 70vh;
+        /*height: 90vh;*/
     }
     .main-title{
         margin-left: 15%;
     } 
     .main-title h1{
         font-size: 50px;   
-        margin-top: 25%;     
+         
     }
     .main-title h2{
         font-size: 25px;
@@ -188,27 +182,23 @@ aside{
 }
 
 @media screen and (max-width: 1050px){
-    .section-1-bg{
-        height: 70vh;
-    }
+    
     .main-title{
-        margin-left: 10%;
+        margin-left: 12%;
     } 
     .main-title h1{
-        font-size: 40px;
+        font-size: 40px;        
     }
 }
 
 @media screen and (max-width: 860px) { 
-    .section-1-bg{
-        height: 70vh;
-    }   
+    
     .main-title{
-        margin-left: 5%;
+        margin-left: 9%;
     }
     .main-title h1{
-        font-size: 32px;   
-        margin-top: 30%;     
+        font-size: 32px;  
+             
     }
     .main-title h2{
         font-size: 20px;
@@ -226,15 +216,13 @@ aside{
 }
 
 @media screen and (max-width: 620px) {    
-    .section-1-bg{
-        height: 45vh;
-    }
+    
     .main-title{
-        margin-left: 3%;
+        margin-left: 4%;
     }
     .main-title h1{
         font-size: 25px;   
-        margin-top: 32%;     
+        
     }
     .main-title h2{
         font-size: 13px;
