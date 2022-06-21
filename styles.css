@@ -227,11 +227,12 @@ aside{
     background-color: transparent;
     width: 50%;
     height: 50%;
+    margin-top: -45px;
 }
 
 .div3 img{    
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 .div4{
@@ -263,16 +264,66 @@ aside{
     margin-right: 10px;
 }
 
+.servicos{
+    margin-bottom: 35px;
+}
+
+.tipoServicos{  
+    text-align: center;
+    display:flex;    
+    margin: auto;
+    justify-content: space-around;      
+}
+
+.tipoServicos h2{
+    font-family: 'Rubik';
+    font-size: 18pt;
+    margin-bottom: 8px;
+}
+
+.desMobile{
+    width: 33%;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.desWeb{
+    width: 33%;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.desGrafico{
+    width: 33%;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+.paragrafoServicos{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 13pt;
+}
+
 .container1{
     margin-top: 2%;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
+
 
 .container2{
     margin-top: 5%;
 }
+
 
 .video:not(:first-child){
     margin-left: 50px;
@@ -291,6 +342,22 @@ aside{
 #logozap{
     color: rgb(1, 43, 1);
     font-size: 20px;
+}
+
+#logoinsta{
+    font-size: 20px;
+}
+
+.divTopo{    
+    text-align: right;
+    margin-right: 10px;    
+}
+
+
+
+#logoTopo{
+    color: #000000 ;
+    font-size: 35px;
 }
 
 footer{ 
@@ -924,6 +991,41 @@ footer{
         color: #FFF;
         font-family: 'Poppins';
     }
+    .servicos{
+        margin-bottom: 35px;
+    }
+    
+    .tipoServicos{  
+        text-align: center;
+        display:block;
+        align-items: center;    
+        margin: auto;          
+    }
+
+    .desMobile{
+        width: 100%;
+        padding-left:  8px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .desWeb{
+        width: 100%;
+        padding-left:  8px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .desGrafico{
+        width: 100%;
+        padding-left:  8px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
