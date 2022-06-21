@@ -28,14 +28,18 @@
 		<a href="#main" id="linksMenu" onclick="esconderMenu()">Início</a>
 	</li>
 	<li>
+		<a href="#principal" id="linksMenu" onclick="esconderMenu()">Sobre mim</a>
+	</li>
+	<li>
+		<a href="#tituloh1" id="linksMenu" onclick="esconderMenu()">Serviços</a>
+	</li>
+	<li>
 		<a href="#container1" id="linksMenu" onclick="esconderMenu()">Projetos</a>
 	</li>
 	<li>
 		<a href="#container2" id="linksMenu" onclick="esconderMenu()">Contato</a>
 	</li>
-	<li>
-		<a href="#principal" id="linksMenu" onclick="esconderMenu()">Sobre mim</a>
-	</li>
+	
 </ul>
 	<!--FIM DOS LINKS DOS MENUS-->
 
@@ -61,7 +65,7 @@
 					<h1>Eu sou Aloir Lucas</h1>
 					<h2 id="textos-automaticos">Sou programador <span class="animacao"></span> </h2>
 					<h5 id="text-automatico"></h5>
-					<a href="#saiba-mais"><button class="btn-sabermais">Saber mais</button></a>
+					<a href="#principal"><button class="btn-sabermais">Saber mais</button></a>
 		
 						<!--INICIO BTN REDES SOCIAIS-->
 					<div class="c-redes-sociais-ico">
@@ -94,13 +98,31 @@
 			<div class="div4" id="saiba-mais">
 				
 				<p>Tenho 31 anos, casado, formado em Administração Pública, e estou cursando Análise e Desenvolvimento de Sistemas.
-					Sou programador front-end, sou apaixonado por programação, e presto serviço como freelancer.
+					<br>Sou desenvolvedor front-end, apaixonado por programação, e presto serviço como freelancer.
 				</p>
 			</div>						
 		</section>
 
+		<section class="servicos">
+			<h1 id="tituloh1">SERVIÇOS</h1>
+		<div class="tipoServicos">
+			<div class="desMobile">
+				<h2>Aplicação Mobile</h2>
+				<p class="paragrafoServicos">Aplicações para dispositivos móveis Android e iOS, disponibilizando em suas respectivas lojas</p>
+			</div>
+			<div class="desWeb">
+				<h2>Aplicação Web</h2>
+				<p class="paragrafoServicos">Desenvolvimento de sites pessoais, comerciais e landpage.</p>
+			</div>
+			<div class="desGrafico">
+				<h2>Design Gráfico</h2>
+				<p class="paragrafoServicos">Desenvolvimento de arte gráfica para marketing digital. Banner, panfletos, convites, entre outras</p>
+			</div>
+		</div>
+		</section>
+
 		<section class="container1" id="container1">
-			<h1 id="tituloh1">PROJETOS</h1>
+			<h1 id="tituloh1" class="h1Projetos">PROJETOS</h1>
 			<div class="videos">				
           
 					<video height="500" width="250" controls class="video" id="video1">
@@ -122,11 +144,14 @@
 			<div>
 				<p id="contato">Entre em contato, estou quase sempre online :)</p><br>
 				<p id="contatoDados">(33) 9 8754-1282 <ion-icon name="logo-whatsapp" id="logozap"></ion-icon></p>
+				<p id="contatoDados">@aloirlucasmartins <ion-icon name="logo-instagram" id="logoinsta"></ion-icon></p>
+				<p id="contatoDados">aloirlucasmartins@gmail.com <ion-icon name="mail-outline"></ion-icon></p>
 				<p id="contatoDados">Rua Antônio Carlos nº 85, Centro | Ipanema/MG <ion-icon name="location-outline"></ion-icon></p>
-				<p id="contatoDados">Instagram - @aloirlucasmartins</p>
+			</div>			
+
+			<div class="divTopo">
+				<a href="#main" id="linkTopo"><span class="spanTopo"><ion-icon name="caret-up" id="logoTopo"></ion-icon></span></a>
 			</div>
-			<br>
-			<a href="#main" id="linkTopo">Topo</a>
 		</section>
 	</section>
 
