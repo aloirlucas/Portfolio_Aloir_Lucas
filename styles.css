@@ -9,12 +9,12 @@
 }
 
 main{
-    background-image: url('img/fundo4.jpg'); /*INSERINDO A IMAGEM DE FUNDO*/
-    background-repeat: no-repeat; /*IMAGEM NAO SE REPETIR*/
-    background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
-    background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
-    height: 100%; /*DEFININDO A ALTURA*/
-    width: 100%; /*FICAR RESPONSIVO*/
+    background-image: url('img/fundo4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 aside{
@@ -22,10 +22,9 @@ aside{
     top: 0;
     right: 0;
     display: flex;
-    overflow: hidden; /*faz com que o menu nao apareça, so apos clicar com o javascript*/
+    overflow: hidden;
 }
 
-    /*estilo da imagem do menu*/
 .icon-menu img{
     width: 45px;
     height: 45px;
@@ -33,19 +32,16 @@ aside{
     margin-top: 25px;    
 }
 
-    /*estilo barra menu*/
 #barra-menu{
-    background-color: #fb0102; /*cor da barra do menu*/
+    background-color: #fb0102;
     height: 100vh;
-    width: 0px; /*quando a pessoa clicar vai chamr a função do java script*/
-    transition: 0.3s all;
-    
+    width: 0px;
+    transition: 0.3s all;    
 }
-
-    /*estilos dos links do barra menu*/
+    
 #barra-menu ul li{
-    list-style: none; /*retirando os pontos pretos que ficam ao lado do link*/
-    padding: 15px; /*separação entre os links*/
+    list-style: none;
+    padding: 15px;
     margin-top: 15%;    
 }
 
@@ -57,14 +53,11 @@ aside{
     font-family: 'Rubik';    
 }
 
-#barra-menu ul li a:hover{ /*QUANDO PASSAR O MOUSE EM CIMA*/
-    border: solid 2px #fbfbfb; /*BORDA*/
-    padding: 8px; /*ESPAÇAMENTO INTERIOR*/
-    border-radius: 15px; /*ARRENDODAMENTO DA BORDA*/
-    
+#barra-menu ul li a:hover{
+    border: solid 2px #fbfbfb;
+    padding: 8px;
+    border-radius: 15px;    
 }
-
-
 
 .c-icon{ /*div dos icones*/
     margin-top: 100%; /*fazer ele descer pro meio*/
@@ -369,395 +362,6 @@ footer{
 }
 
 
-@media screen and (max-width: 1600px){
-
-    main{
-        background-image: url('img/fundo4.jpg'); /*INSERINDO A IMAGEM DE FUNDO*/
-        background-repeat: no-repeat; /*IMAGEM NAO SE REPETIR*/
-        background-position: center center; /*PRA IMAGEM FICAR NO CENTRO*/
-        background-size: cover; /*PRA IMAGEM TOMAR TODA A NOSSA DIV*/
-        height: 100%; /*DEFININDO A ALTURA*/
-        width: 100%; /*FICAR RESPONSIVO*/
-    }
-    
-    aside{
-        position:absolute;
-        top: 0;
-        right: 0;
-        display: flex;
-        overflow: hidden; /*faz com que o menu nao apareça, so apos clicar com o javascript*/
-    }
-    
-        /*estilo da imagem do menu*/
-    .icon-menu img{
-        width: 45px;
-        height: 45px;
-        margin-right: 25px;
-        margin-top: 25px;    
-    }
-    
-        /*estilo barra menu*/
-    #barra-menu{
-        background-color: #fb0102; /*cor da barra do menu*/
-        height: 100vh;
-        width: 0px; /*quando a pessoa clicar vai chamr a função do java script*/
-        transition: 0.3s all;
-    }
-    
-        /*estilos dos links do barra menu*/
-    #barra-menu ul li{
-        list-style: none; /*retirando os pontos pretos que ficam ao lado do link*/
-        padding: 15px; /*separação entre os links*/
-        margin-top: 15%;    
-    }
-    
-    #barra-menu ul li a{
-        color: #FFF;
-        text-decoration: none;
-        font-size: 16px;
-        width: 100%;
-        font-family: 'Rubik';    
-    }
-    
-    #barra-menu ul li a:hover{ /*QUANDO PASSAR O MOUSE EM CIMA*/
-        border: solid 2px #fbfbfb; /*BORDA*/
-        padding: 8px; /*ESPAÇAMENTO INTERIOR*/
-        border-radius: 15px; /*ARRENDODAMENTO DA BORDA*/
-        
-    }
-    
-    .c-icon{ /*div dos icones*/
-        margin-top: 100%; /*fazer ele descer pro meio*/
-        display: flex;
-        justify-content: center; /*centralizar*/    
-        text-align: center; /*centralizar*/
-        gap: 15px; /*espaçamento entre os icones*/
-        overflow: hidden;/*faz com que o menu nao apareça, so apos clicar com o javascript*/
-    }
-    
-    .c-icon span{ /*div e a tag span dos ícones*/
-        color: #FFF;  
-        font-size: 15pt;  
-    }
-    
-    .c-icon span:hover{
-        color:#7d5050;
-        transition: 0.2s;
-        transform: 0.5s;
-    }
-    
-    .secao1{
-        align-items: center;
-        text-align: center;
-        display:flex;       
-        justify-content: center;
-        margin: auto;   
-    }
-    
-    .div1{
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .div2{
-        background: transparent;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .div2 img{    
-        width: 70%;
-        height: 70%;
-        padding-top: 8%;
-    }
-    
-    .main-title{
-        display: flex; /*em linha*/
-        flex-direction: column; /*alinhar em colunas*/
-        justify-content: center;
-        margin-left: 18%;
-        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
-    }
-    
-    .main-title h1{
-        font-size: 75px;
-        color: #FFF;
-        margin-top: 2%;
-        font-family: 'Poppins';
-        font-weight: bold;
-        letter-spacing: 2px;    
-    }
-    
-    .main-title h2{
-        color: #fb0102;
-        font-size: 40px;
-        font-family: 'Rubik';
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    
-    .main-title h5{
-        color: #fff;
-        font-size: 30px;
-        font-family: 'Rubik';
-        font-weight: 200;
-        letter-spacing: 2px;
-        margin-top: 5%;
-    }
-    
-    #text-portfolio{
-        margin:0;
-        padding: 0;
-        color: rgb(174, 158, 158);
-        margin-top: 13%;
-        font-family: 'Rubik';
-        font-size: 25px;
-    }
-    
-    .btn-sabermais{
-        width: 25%;
-        margin-top: 10%;
-        padding: 8px 5px;
-        font-size: 24px;
-        font-weight:300;
-        border: solid 1px #7d5050;
-        background: transparent;
-        border-radius: 50px;
-        color: #FFF;
-        font-family: 'Rubik';
-        cursor: pointer; /*mãozinha do mouse*/
-    }
-    
-    .btn-sabermais:hover{
-        background: transparent;
-        border: solid 1px #FFF;
-        font-size: 25px;
-        font-weight: 450;
-    }
-    
-    .c-redes-sociais-ico{ /*div dos icones*/
-        justify-content: center; /*centralizar*/    
-        text-align: center; /*centralizar*/
-        margin-top: 15%;
-    }
-    
-    .redes-sociais-ico{ /*div e a tag span dos ícones*/
-        color: #FFF; 
-        font-size: 30pt;    
-    }
-    
-    .redes-sociais-ico:hover{
-        color:#7d5050;
-        transition: 0.2s;
-        transform: 0.5s;
-        cursor: pointer;    
-    }
-    
-    .redes-sociais-ico:not(:first-child){
-        margin-left: 55px;
-    }
-    
-    .links:not(:first-child){
-        margin-left: 55px;
-    }
-    
-    .principal{
-        background-color: white; 
-        min-width: 300px; 
-        max-width: 950px; 
-        margin: auto; 
-        padding: 10px; 
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
-        margin-bottom: 30px; 
-        border-radius: 0px 0px 10px 10px;    
-        text-align: center;    
-    }
-    
-    .container{   
-        text-align: center;
-        display:flex;       
-        justify-content: center;
-        margin: auto; 
-        display:flex;       
-        justify-content: center;     
-    }
-    
-    .div3{
-        background-color: transparent;
-        width: 50%;
-        height: 50%;
-    }
-    
-    .div3 img{    
-        width: 50%;
-        height: 50%;
-    }
-    
-    .div4{
-        background: transparent;
-        width: 100%;
-        height: 100%;
-    }
-    #tituloh1-quemsoueu{
-        font-family: 'Rubik';
-        font-size: 20pt;
-        text-align: center;
-        margin-bottom: 2%;
-        color: #fb0102;
-    }
-    
-    #tituloh1{
-        font-family: 'Rubik';
-        font-size: 20pt;
-        text-align: center;
-        margin-bottom: 2%;
-        color: #fb0102;
-    }
-    
-    .div4 p{
-        font-family: 'Poppins';
-        text-align: justify;
-        font-size: 13pt;
-        padding-right: 30px;
-        margin-right: 10px;
-    }
-    
-    .container1{
-        margin-top: 2%;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-    .container2{
-        margin-top: 5%;
-    }
-    
-    .video:not(:first-child){
-        margin-left: 50px;
-    }
-    
-    #contato{
-        font-family: 'Rubik';
-        font-size: 15pt;
-    }
-    
-    #contatoDados{
-        font-family: 'Rubik';
-        font-size: 15pt;
-    }
-    
-    #logozap{
-        color: rgb(1, 43, 1);
-        font-size: 20px;
-    }
-    
-    footer{ 
-        text-align: center; /*centralizando o rodape*/
-        padding: 5px 0px; /*para dar uma engordadinha nele por cima e por baixo*/
-        font-size: 10pt; /*tamanho da letra*/
-        color: #FFF;
-        font-family: 'Poppins';
-    }
-    
-
-    .div2 img{    
-        width: 70%;
-        height: 70%;
-        padding-top: 8%;
-    }
-    
-    .main-title{
-        display: flex; /*em linha*/
-        flex-direction: column; /*alinhar em colunas*/
-        justify-content: center;
-        margin-left: 18%;
-        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
-    }
-    
-    .main-title h1{
-        font-size: 60px;
-        color: #FFF;
-        margin-top: 2%;
-        font-family: 'Poppins';
-        font-weight: bold;
-        letter-spacing: 2px;    
-    }
-    
-    .main-title h2{
-        color: #fb0102;
-        font-size: 35px;
-        font-family: 'Rubik';
-        font-weight: bold;
-        letter-spacing: 2px;
-    }
-    
-    .main-title h5{
-        color: #fff;
-        font-size: 25px;
-        font-family: 'Rubik';
-        font-weight: 200;
-        letter-spacing: 2px;
-        margin-top: 5%;
-    }
-    
-    #text-portfolio{
-        margin:0;
-        padding: 0;
-        color: rgb(174, 158, 158);
-        margin-top: 13%;
-        font-family: 'Rubik';
-        font-size: 20px;
-    
-    
-    }
-    
-    .btn-sabermais{
-        width: 25%;
-        margin-top: 10%;
-        padding: 8px 5px;
-        font-size: 25px;
-        font-weight:300;
-        border: solid 1px #7d5050;
-        background: transparent;
-        border-radius: 50px;
-        color: #FFF;
-        font-family: 'Rubik';
-        cursor: pointer; /*mãozinha do mouse*/
-    }
-    
-    .btn-sabermais:hover{
-        background: transparent;
-        border: solid 1px #FFF;
-        font-size: 26px;
-        font-weight: 450;
-    }
-    
-    .c-redes-sociais-ico{ /*div dos icones*/
-        justify-content: center; /*centralizar*/    
-        text-align: center; /*centralizar*/
-        margin-top: 15%;
-    }
-    
-    .redes-sociais-ico{ /*div e a tag span dos ícones*/
-        color: #FFF; 
-        font-size: 30pt;
-        
-    }
-    
-    .redes-sociais-ico:hover{
-        color:#7d5050;
-        transition: 0.2s;
-        transform: 0.5s;
-        cursor: pointer;
-        
-    }
-    
-    .redes-sociais-ico:not(:first-child){
-        margin-left: 55px;
-    }   
-}
 
 
 @media screen and (max-width: 600px) {
@@ -1230,5 +834,224 @@ footer{
 }
 
 @media screen and (min-width: 901px) and (max-width: 1100px){
+    .main-title{
+        display: flex; /*em linha*/
+        flex-direction: column; /*alinhar em colunas*/
+        justify-content: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
+    }
+    
+    .main-title h1{
+        font-size: 40px;
+        color: #FFF;
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;    
+    }
+    
+    .main-title h2{
+        color: #fb0102;
+        font-size: 23px;
+        font-family: 'Rubik';
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .main-title h5{
+        color: #fff;
+        font-size: 23px;
+        font-family: 'Rubik';
+        font-weight: 200;
+        letter-spacing: 2px;
+        margin-top: 5%;
+    }
+    
+    #text-portfolio{
+        margin:0;
+        padding: 0;
+        color: rgb(174, 158, 158);
+        margin-top: 10%;
+        font-family: 'Rubik';
+        font-size: 15px;
+    }
+    
+    .btn-sabermais{
+        width: 30%;
+        margin-top: 10%;
+        padding: 4px 2px;
+        font-size: 20px;
+        font-weight:300;
+        border: solid 1px #7d5050;
+        background: transparent;
+        border-radius: 50px;
+        color: #FFF;
+        font-family: 'Rubik';
+        cursor: pointer; /*mãozinha do mouse*/
+    }
+    
+    .btn-sabermais:hover{
+        background: transparent;
+        border: solid 1px #FFF;
+        font-size: 21px;
+        font-weight: 450;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px){
+    .main-title{
+        display: flex; /*em linha*/
+        flex-direction: column; /*alinhar em colunas*/
+        justify-content: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
+    }
+    
+    .main-title h1{
+        font-size: 46px;
+        color: #FFF;
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;    
+    }
+    
+    .main-title h2{
+        color: #fb0102;
+        font-size: 28px;
+        font-family: 'Rubik';
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .main-title h5{
+        color: #fff;
+        font-size: 28px;
+        font-family: 'Rubik';
+        font-weight: 200;
+        letter-spacing: 2px;
+        margin-top: 5%;
+    }
+    
+    #text-portfolio{
+        margin:0;
+        padding: 0;
+        color: rgb(174, 158, 158);
+        margin-top: 10%;
+        font-family: 'Rubik';
+        font-size: 17px;
+    }
+    
+    .btn-sabermais{
+        width: 25%;
+        margin-top: 10%;
+        padding: 4px 2px;
+        font-size: 21px;
+        font-weight:300;
+        border: solid 1px #7d5050;
+        background: transparent;
+        border-radius: 50px;
+        color: #FFF;
+        font-family: 'Rubik';
+        cursor: pointer; /*mãozinha do mouse*/
+    }
+    
+    .btn-sabermais:hover{
+        background: transparent;
+        border: solid 1px #FFF;
+        font-size: 22px;
+        font-weight: 450;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1600px){
+    .main-title{
+        display: flex; /*em linha*/
+        flex-direction: column; /*alinhar em colunas*/
+        justify-content: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
+    }
+    
+    .main-title h1{
+        font-size: 60px;
+        color: #FFF;
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;    
+    }
+    
+    .main-title h2{
+        color: #fb0102;
+        font-size: 35px;
+        font-family: 'Rubik';
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .main-title h5{
+        color: #fff;
+        font-size: 33px;
+        font-family: 'Rubik';
+        font-weight: 200;
+        letter-spacing: 2px;
+        margin-top: 5%;
+    }
+    
+    #text-portfolio{
+        margin:0;
+        padding: 0;
+        color: rgb(174, 158, 158);
+        margin-top: 10%;
+        font-family: 'Rubik';
+        font-size: 20px;
+    }
+    
+    .btn-sabermais{
+        width: 22%;
+        margin-top: 10%;
+        padding: 4px 2px;
+        font-size: 23px;
+        font-weight:300;
+        border: solid 1px #7d5050;
+        background: transparent;
+        border-radius: 50px;
+        color: #FFF;
+        font-family: 'Rubik';
+        cursor: pointer; /*mãozinha do mouse*/
+    }
+    
+    .btn-sabermais:hover{
+        background: transparent;
+        border: solid 1px #FFF;
+        font-size: 24px;
+        font-weight: 450;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px){
+    .main-title{
+        display: flex; /*em linha*/
+        flex-direction: column; /*alinhar em colunas*/
+        justify-content: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        flex-wrap: wrap; /*pra quando for fazer o respondivo*/
+    }
+    
+    .main-title h1{
+        font-size: 67px;
+        color: #FFF;
+        margin-top: 2%;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 2px;    
+    }
+    
     
 }
