@@ -5,176 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <title>Aloir Lucas - Programador Front-End</title>
+	
 </head>
-<body>
-	
+<body>	
 	<main id="main">
-		<aside>
-			<!--FAZENDO O MENU-->
-
-<!--INICIO ico do menu-->
-<div class="icon-menu" onclick="abrirMenu()"> <!--ao clicar na imagem ai chamar a funcão abrir menu no javascrpit--> 
-<img src="img/menu-aberto.png" alt="menu-aberto">
-</div>
-<!--FIM ico do menu-->
-
-<!--INÍCIO barra do menu quando clicamos-->
-<div id="barra-menu"> <!--coloco esse id la na função do javascript-->
-
-	<!--INICIO DOS LINKS DOS MENUS-->
-<ul>
-	<li>
-		<a href="#main" id="linksMenu" onclick="esconderMenu()">Início</a>
-	</li>
-	<li>
-		<a href="#principal" id="linksMenu" onclick="esconderMenu()">Sobre mim</a>
-	</li>
-	<li>
-		<a href="#tituloh1" id="linksMenu" onclick="esconderMenu()">Serviços</a>
-	</li>
-	<li>
-		<a href="#container1" id="linksMenu" onclick="esconderMenu()">Projetos</a>
-	</li>
-	<li>
-		<a href="#container2" id="linksMenu" onclick="esconderMenu()">Contato</a>
-	</li>
-	
-</ul>
-	<!--FIM DOS LINKS DOS MENUS-->
-
-	<!--INICIO ICONES INSTA, FACE E LINKEDIN-->
-<div class="c-icon">
-	<a href="https://www.github.com/aloirlucas/" target="_blank"><span class="icon"><span class="icon"><ion-icon name="logo-github"></ion-icon></span>
-
-	<a href="https://www.instagram.com/aloirlucasmartins/" target="_blank"><span class="icon"><ion-icon name="logo-instagram"></ion-icon></span></a>
-	
-	<a href="https://br.linkedin.com/in/aloirlucasmartins" target="_blank"><span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span></a>
-	
-</div> 
-	<!--FIM ICONES INSTA, FACE E LINKEDIN-->
-</div> 
-<!--FIM - barra do menu quando clicamos-->
-</aside>
+		<aside>				
+			<div class="icon-menu" onclick="abrirMenu()"> <!--ao clicar na imagem ai chamar a funcão abrir menu no javascrpit--> 
+				<img src="img/menu-aberto.png" alt="menu-aberto">
+			</div>			
+			<div id="barra-menu"> <!--coloco esse id la na função do javascript-->
+				<ul>
+					<li>
+						<a href="#main" id="linksMenu" onclick="esconderMenu()">Início</a>
+					</li>
+					<li>
+						<a href="#principal" id="linksMenu" onclick="esconderMenu()">Sobre mim</a>
+					</li>
+					<li>
+						<a href="#tituloh1" id="linksMenu" onclick="esconderMenu()">Serviços</a>
+					</li>
+					<li>
+						<a href="#container1" id="linksMenu" onclick="esconderMenu()">Projetos</a>
+					</li>
+					<li>
+						<a href="#container2" id="linksMenu" onclick="esconderMenu()">Contato</a>
+					</li>	
+				</ul>
+						
+				<div class="c-icon">
+					<a href="https://www.github.com/aloirlucas/" target="_blank"><span class="icon"><span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+					<a href="https://www.instagram.com/aloirlucasmartins/" target="_blank"><span class="icon"><ion-icon name="logo-instagram"></ion-icon></span></a>	
+					<a href="https://br.linkedin.com/in/aloirlucasmartins" target="_blank"><span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span></a>	
+				</div>						
+			</div> 				
+		</aside>
 		<section class="secao1">
-
-			<div class="div1">
-				<!--INICIO MAIN TITLE-->
+			<div class="div1">					
 				<div class="main-title">
 					<h6 id="text-portfolio">PORTFÓLIO</h6>
 					<h1>Eu sou Aloir Lucas</h1>
 					<h2 id="textos-automaticos">Sou programador <span class="animacao"></span> </h2>
 					<h5 id="text-automatico"></h5>
 					<a href="#principal"><button class="btn-sabermais">Saber mais</button></a>
-		
-						<!--INICIO BTN REDES SOCIAIS-->
+					
 					<div class="c-redes-sociais-ico">
-
 						<a class="links" href="https://www.github.com/aloirlucas/" target="_blank"><span class="redes-sociais-ico"><ion-icon name="logo-github"></ion-icon></span></a>
-
-						<a class="links" href="https://www.instagram.com/aloirlucasmartins/" target="_blank"><span class="redes-sociais-ico"><ion-icon name="logo-instagram"></ion-icon></span></a>
-						
-						<a class="links" href="https://br.linkedin.com/in/aloirlucasmartins" target="_blank"><span class="redes-sociais-ico"><ion-icon name="logo-linkedin"></ion-icon></span></a>
-				
-					</div>
-						<!--FIM BTN REDES SOCIAIS-->
-						
-				</div>
-					<!--FIM MAIN TITLE-->
+						<a class="links" href="https://www.instagram.com/aloirlucasmartins/" target="_blank"><span class="redes-sociais-ico"><ion-icon name="logo-instagram"></ion-icon></span></a>						
+						<a class="links" href="https://br.linkedin.com/in/aloirlucasmartins" target="_blank"><span class="redes-sociais-ico"><ion-icon name="logo-linkedin"></ion-icon></span></a>			
+					</div>												
+				</div>					
 			</div>
-
 			<div class="div2">
 				<img src="img/perfil4.png" alt="">
 			</div>		
-		</section>
-		
-	<section class="principal" id="principal">
-		<h1 id="tituloh1-quemsoueu">SOBRE</h1>
-		<section class="container">
-			
-			<div class="div3">
-				<img src="img/perfil4.png" alt="">
-			</div>
-			<div class="div4" id="saiba-mais">
-				
-				<p>Tenho 31 anos, casado, formado em Administração Pública, e estou cursando Análise e Desenvolvimento de Sistemas.
+		</section>		
+		<section class="principal" id="principal">
+			<h1 id="tituloh1-quemsoueu">SOBRE</h1>
+			<section class="container">			
+				<div class="div3">
+					<img src="img/perfil4.png" alt="">
+				</div>
+				<div class="div4" id="saiba-mais">				
+					<p>Tenho 31 anos, casado, formado em Administração Pública, e estou cursando Análise e Desenvolvimento de Sistemas.
 					<br>Sou desenvolvedor front-end, apaixonado por programação, e presto serviço como freelancer.
-				</p>
-			</div>						
-		</section>
-
-		<section class="servicos">
-			<h1 id="tituloh1">SERVIÇOS</h1>
-		<div class="tipoServicos">
-			<div class="desMobile">
-				<h2>Aplicação Mobile</h2>
-				<p class="paragrafoServicos">Aplicações para dispositivos móveis Android e iOS, disponibilizando em suas respectivas lojas</p>
+					</p>
+				</div>						
+			</section>
+			<section class="servicos">
+				<h1 id="tituloh1">SERVIÇOS</h1>
+			<div class="tipoServicos">
+				<div class="desMobile">
+					<h2>Aplicação Mobile</h2>
+					<p class="paragrafoServicos">Desenvolvimento de aplicações para dispositivos móveis Android e iOS, disponibilizando em suas respectivas lojas de aplicativos.</p>
+				</div>
+				<div class="desWeb">
+					<h2>Aplicação Web</h2>
+					<p class="paragrafoServicos">Desenvolvimento de sites pessoais, comerciais e landpage.</p>
+				</div>
+				<div class="desGrafico">
+					<h2>Design Gráfico</h2>
+					<p class="paragrafoServicos">Desenvolvimento de arte gráfica para marketing digital. Banner, panfletos, convites, entre outras.</p>
+				</div>
 			</div>
-			<div class="desWeb">
-				<h2>Aplicação Web</h2>
-				<p class="paragrafoServicos">Desenvolvimento de sites pessoais, comerciais e landpage.</p>
-			</div>
-			<div class="desGrafico">
-				<h2>Design Gráfico</h2>
-				<p class="paragrafoServicos">Desenvolvimento de arte gráfica para marketing digital. Banner, panfletos, convites, entre outras</p>
-			</div>
-		</div>
-		</section>
-
-		<section class="container1" id="container1">
-			<h1 id="tituloh1" class="h1Projetos">PROJETOS</h1>
-			<div class="videos">				
-          
-					<video height="500" width="250" controls class="video" id="video1">
+			</section>
+			<section class="container1" id="container1">
+				<h1 id="tituloh1" class="h1Projetos">PROJETOS</h1>
+				<div class="videos">          
+					<video height="500" width="250" controls ontrolsList="nodownload" class="video" id="video1">
 					  <source src="videos/appPromessas.mp4" type="video/mp4">
 					</video>					
-					
-					<video height="500" width="250" controls class="video" id="video2">
+					<video height="500" width="250" ontrolsList="nodownload" controls class="video" id="video2">
 						<source src="videos/site-ja.mp4" type="video/mp4">
-					</video>
-					  
-					<video height="500" width="250" controls class="video" id="video3">
+					</video>			  
+					<video height="500" width="250" controls ontrolsList="nodownload" class="video" id="video3">
 						<source src="videos/app-cad-banco.mp4" type="video/mp4">
 					</video>			  
-			</div>
-		</section>
-
-		<section class="container2" id="container2">
-			<h1 id="tituloh1">CONTATO</h1>
-			<div>
-				<p id="contato">Entre em contato, estou quase sempre online :)</p><br>
-				<p id="contatoDados">(33) 9 8754-1282 <ion-icon name="logo-whatsapp" id="logozap"></ion-icon></p>
-				<p id="contatoDados">@aloirlucasmartins <ion-icon name="logo-instagram" id="logoinsta"></ion-icon></p>
-				<p id="contatoDados">aloirlucasmartins@gmail.com <ion-icon name="mail-outline"></ion-icon></p>
-				<p id="contatoDados">Rua Antônio Carlos nº 85, Centro | Ipanema/MG <ion-icon name="location-outline"></ion-icon></p>
-			</div>			
-
-			<div class="divTopo">
-				<a href="#main" id="linkTopo"><span class="spanTopo"><ion-icon name="caret-up" id="logoTopo"></ion-icon></span></a>
-			</div>
-		</section>
-	</section>
-
-
-		
+				</div>
+			</section>
+			<section class="container2" id="container2">
+				<h1 id="tituloh1">CONTATO</h1>
+				<div>
+					<p id="contato">Entre em contato, estou quase sempre online :)</p><br>
+					<p id="contatoDados">(33) 9 8754-1282 <ion-icon name="logo-whatsapp" id="logozap"></ion-icon></p>
+					<p id="contatoDados">@aloirlucasmartins <ion-icon name="logo-instagram" id="logoinsta"></ion-icon></p>
+					<p id="contatoDados">aloirlucasmartins@gmail.com <ion-icon name="mail-outline"></ion-icon></p>
+					<p id="contatoDados">Rua Antônio Carlos nº 85, Centro<br>Ipanema/MG <ion-icon name="location-outline"></ion-icon></p>
+				</div>
+				<div class="divTopo">
+					<a href="#main" id="linkTopo"><span class="spanTopo"><ion-icon name="caret-up" id="logoTopo"></ion-icon></span></a>
+				</div>
+			</section>
+		</section>		
 		<footer>
 			<p>Todos os direitos reservados ©2022</p>  
  			<p>Site Criado por Aloir Lucas Martins | J.A. Infotech</p>
 		</footer>
-	</main>
-
-
-	 <!--BIBLIOTECA DO SITE https://www.typeitjs.com/ PARA QUE OS TEXTOS AUTOMATICOS DO H2 FUNCIONE-->
-	 	<script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
-	 <!--BIBLIOTECA DO SITE https://www.typeitjs.com/ PARA QUE OS TEXTOS AUTOMATICOS DO H2 FUNCIONE-->
-
-	 <!--SCRIPT BAIXADO DO SITE IONICONS, PARA FUNCIONAR OS ICONES DO INSTA FACE E LINKEDIN-->
- 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
- 		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	 <!--SCRIPT BAIXADO DO SITE IONICONS, PARA FUNCIONAR OS ICONES DO INSTA FACE E LINKEDIN-->
-
-	 <script src="scriptTextoAutomaticoH5.js"></script>
-	 <script src="scriptTextoAutomaticoH2.js"></script>
+	</main>	 
+	<script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>	 
+ 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="scriptTextoAutomaticoH5.js"></script>
+	<script src="scriptTextoAutomaticoH2.js"></script>
 	<script src="scriptMenu.js"></script>
 </body>
 </html>
